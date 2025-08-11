@@ -31,6 +31,7 @@
     "lint:check": "npm run typecheck && eslint \"src/**/*.{ts,tsx}\" --max-warnings 0 --no-warn-ignored",
     "format": "prettier --write \"src/**/*.{ts,tsx,css,json}\"",
     "format:check": "prettier --check \"src/**/*.{ts,tsx,css,json}\"",
+    "restore-icon-deb": "bash scripts/restore-icon-deb.sh",
     "test": "vitest",
     "test:run": "vitest run",
     "test:ui": "vitest --ui",
