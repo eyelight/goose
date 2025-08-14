@@ -4,10 +4,52 @@
         <title>codename goose Blog</title>
         <link>https://block.github.io/goose/blog</link>
         <description>codename goose Blog</description>
-        <lastBuildDate>Wed, 13 Aug 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 14 Aug 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[How I Used Goose to Rebuild My Website]]></title>
+            <link>https://block.github.io/goose/blog/2025/08/14/how-goose-rebuilt-my-website</link>
+            <guid>https://block.github.io/goose/blog/2025/08/14/how-goose-rebuilt-my-website</guid>
+            <pubDate>Thu, 14 Aug 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[How a simple prompt transformed a blank website into a personal portfolio]]></description>
+            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="goose Website Banner" src="https://block.github.io/goose/assets/images/goose_website_banner-656bd5e1014edfbcd313a9f799f9e9a5.png" width="1206" height="633" class="img_ev3q"></p>
+<p>A website to me is a corner of the internet where I can be who I am, share my work, and ultimately a place I can do whatever I want with. For it to be anything but my personality personified, especially as an ex-nerdy blog designer (in my middle school and high school days), felt so sad! Until suddenly, what started out as a harmless 404 day challenge quickly turned into making that website in basically no time.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="going-back-to-my-roots">Going Back to My Roots<a href="https://block.github.io/goose/blog/2025/08/14/how-goose-rebuilt-my-website#going-back-to-my-roots" class="hash-link" aria-label="Direct link to Going Back to My Roots" title="Direct link to Going Back to My Roots">​</a></h2>
+<p>When I say I was a nerdy blog creator for other people, I mean I was living in the deep-end of HTML and CSS. It was a hobby where I got to create super-customized websites for other nerds like myself on the internet. So it was really bugging me to have a website today that was basically :poopemoji: personified. No character, no style of my own, just a minimal generic layout I was paying a monthly subscription for just to avoid complete embarassment. It's been a decade at least since then, and I was NOT in the mood to sit here and relearn pieces to create a website structure from scratch. I had all the pieces in my drafts, just needed structure.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="the-404-challenge-that-started-it-all">The 404 Challenge That Started It All<a href="https://block.github.io/goose/blog/2025/08/14/how-goose-rebuilt-my-website#the-404-challenge-that-started-it-all" class="hash-link" aria-label="Direct link to The 404 Challenge That Started It All" title="Direct link to The 404 Challenge That Started It All">​</a></h2>
+<p>Then came this <a href="https://www.linkedin.com/posts/block-opensource_happy-404-day-we-used-goose-to-generate-activity-7313972103613939713-GF1T/" target="_blank" rel="noopener noreferrer">simple and easy prompt on 404 day</a>. The post was about creating your own 404 page using goose, where goose will give you a custom page based on your profile. The original prompt went something like this:</p>
+<blockquote>
+<p>Create a 404 page that tells a creative story about GitHub user @taniashiba using their public GitHub data — commit history, contribution graph, repos, or anything else you can access.</p>
+</blockquote>
+<p>I took this prompt, and modified it a bit. My personal GitHub profile and contributions are great, but I also wanted to make sure goose referenced my LinkedIn, Instagram, and all other social channels to get a good grasp of me.</p>
+<blockquote>
+<p>You can also reference Tania's Bluesky/Instagram/TikTok/Twitter accounts (username @taniashiba) along with her LinkedIn for additional info on her.</p>
+</blockquote>
+<p><img decoding="async" loading="lazy" alt="404 page" src="https://block.github.io/goose/assets/images/404page-a6e9f936e90c573008a5523d4779575e.png" width="1280" height="1196" class="img_ev3q"></p>
+<p>Quickly brought to life is a 404 page that is witty and actually pretty reflective of who I am and what I like in its styling. It even inserted a shrimp joke I had made in a past social post. I didn't even tell goose about any color combos I love, and somehow it made something that spoke to me. This lit a bright spark of inspiration. So, I asked goose:</p>
+<blockquote>
+<p>Can you remember that you made this? I'd love for you to make a website in this exact styling for taniachakraborty.com.</p>
+</blockquote>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="implementation">Implementation<a href="https://block.github.io/goose/blog/2025/08/14/how-goose-rebuilt-my-website#implementation" class="hash-link" aria-label="Direct link to Implementation" title="Direct link to Implementation">​</a></h2>
+<p>goose was helping me resolve what felt like an age-old problem, and made it so simple to do. I gave goose my website, told goose it was hosted on Neocities, and it went to work. After creating general pages with the styling it made for the 404 page, implementation was easy:</p>
+<ol>
+<li><strong>Upload</strong> the files goose made onto Neocities</li>
+<li><strong>Review</strong> the site and ask goose to edit or create any pages I needed</li>
+<li><strong>Write content</strong> to fill the different pages of my website (my favorite part)</li>
+</ol>
+<p>Then boom, my website was done. No wrestling ancient memories from my mind to relearn CSS, no debugging issues caused by a responsive hover effect I thought was cool at 2 AM, no troubles at all. Goose handled everything. It started with a simple structure, used the styling it came up with from the 404 day challenge, and made changes as I asked for them in conversation. My website went from being embarrasingly empty to being wonderfully designed and easy to edit in <em>minutes</em>.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="always-use-git">Always Use Git<a href="https://block.github.io/goose/blog/2025/08/14/how-goose-rebuilt-my-website#always-use-git" class="hash-link" aria-label="Direct link to Always Use Git" title="Direct link to Always Use Git">​</a></h2>
+<p>It honestly felt like playing a video game, because I could see changes happen live in my local preview, and with git I could save progress as we went. Goose even suggested I add my blog posts from my dev.to page, and created a simple template for me. And if anything wasn't showing up as intended? We just troubleshooted together by me sending screenshots of what I was seeing, and goose simply fixing it.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="a-huge-timesaver-seriously">A HUGE Timesaver, Seriously<a href="https://block.github.io/goose/blog/2025/08/14/how-goose-rebuilt-my-website#a-huge-timesaver-seriously" class="hash-link" aria-label="Direct link to A HUGE Timesaver, Seriously" title="Direct link to A HUGE Timesaver, Seriously">​</a></h2>
+<p>Something that would've taken me anywhere from a week to a month to build was done instantly. Instead of worrying about learning or relearning a skill in order to build something you need right now, you can learn as you go along with goose. This entire experience reminded me why I fell in love with styling websites for others in the first place, you really create something out of nothing!</p>
+<p>So if you're sitting there with a naked website that needs help, or if you've been putting off a project because the technical aspects feel like an overwhelming nightmare, maybe it's time you start a conversation with a useful tool like goose. And who knows? Maybe you will end up with your own digital aquarium of a website with shrimp jokes about debugging lurking in your website footer. 🦐</p>
+<hr>
+<p><em>Want to see the final result? Check out my portfolio at <a href="https://taniachakraborty.com/" target="_blank" rel="noopener noreferrer">taniachakraborty.com</a>. Let me know how many shrimp jokes you find.</em></p>
+<hr>
+]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[How PulseMCP Automated Newsletter Workflow with Goose]]></title>
             <link>https://block.github.io/goose/blog/2025/08/13/pulse-mcp-automates-recipe</link>
@@ -1799,31 +1841,6 @@ The whole point was to offload the tedious stuff so we could focus on the work t
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="credit-where-its-due">Credit where it's due<a href="https://block.github.io/goose/blog/2025/05/20/goose-gets-a-drivers-license#credit-where-its-due" class="hash-link" aria-label="Direct link to Credit where it's due" title="Direct link to Credit where it's due">​</a></h2>
 <p>We want to extend a huge thank you to <a href="https://x.com/deemkeen" target="_blank" rel="noopener noreferrer">deemkeen</a> for their open-source work which inspired this project, and to the Makeblock team for creating such a fun rover to work with.</p>
 <p>We're always excited to see what the community is up to. If you're working on your own Goose-powered experiment, come share it with us on <a href="https://discord.gg/block-opensource" target="_blank" rel="noopener noreferrer">Discord</a>!</p>
-]]></content:encoded>
-        </item>
-        <item>
-            <title><![CDATA[Goose and Qwen3 for Local Execution]]></title>
-            <link>https://block.github.io/goose/blog/2025/05/12/local-goose-qwen3</link>
-            <guid>https://block.github.io/goose/blog/2025/05/12/local-goose-qwen3</guid>
-            <pubDate>Mon, 12 May 2025 00:00:00 GMT</pubDate>
-            <description><![CDATA[Run AI commands locally with Goose and Qwen3 for fast, offline tool execution]]></description>
-            <content:encoded><![CDATA[<p><img decoding="async" loading="lazy" alt="local AI agent" src="https://block.github.io/goose/assets/images/goose-qwen-local-62d07cd240ff65cb99a6ef41a2c851a5.png" width="1200" height="630" class="img_ev3q"></p>
-<p>A couple of weeks back, <a href="https://qwenlm.github.io/blog/qwen3/" target="_blank" rel="noopener noreferrer">Qwen 3</a> launched with a raft of capabilities and sizes. This model showed promise and even in very compact form, such as 8B parameters and 4bit quantization, was able to do tool calling successfully with goose. Even multi turn tool calling.</p>
-<p>I haven't seen this work at such a scaled down model so far, so this is really impressive and bodes well for both this model, but also future open weight models both large and small.  I would expect the Qwen3 larger models work quite well on various tasks but even this small one I found useful.</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="local-workflows-and-local-agents">Local workflows and local agents<a href="https://block.github.io/goose/blog/2025/05/12/local-goose-qwen3#local-workflows-and-local-agents" class="hash-link" aria-label="Direct link to Local workflows and local agents" title="Direct link to Local workflows and local agents">​</a></h2>
-<p>For some time I have had a little helper function in my <code>~/.zshrc</code> file for command line usage:</p>
-<div class="language-zsh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-zsh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain"># zsh helper to use goose if you make a typo or just want to yolo into the shell</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">command_not_found_handler() {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  local cmd="$*"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  echo "🪿:"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  goose run -t "can you try to run this command please: $cmd"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<p>This makes use of a zsh feature (zsh now being standard on macos) that will delegate to that function if nothing else on the command line makes sense.
-This lets me either make typos or just type in what I want in the command line such as <code>$&gt; can you kill whatever is listening on port 8000</code> and goose will do the work, don't even need to open a goose session.</p>
-<p>With Qwen3 + Ollama running all locally with goose, it worked well enough I switched over to a complete local version of that workflow which works when I am offline, on the train etc:</p>
-<div class="language-zsh codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-zsh codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">command_not_found_handler() {</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  local cmd="$*"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  echo "🪿:"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">  GOOSE_PROVIDER=ollama GOOSE_MODEL=michaelneale/qwen3 goose run -t "can you try to run this command please: $cmd"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">}</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="qwen3-reasoning">Qwen3 reasoning<a href="https://block.github.io/goose/blog/2025/05/12/local-goose-qwen3#qwen3-reasoning" class="hash-link" aria-label="Direct link to Qwen3 reasoning" title="Direct link to Qwen3 reasoning">​</a></h2>
-<p>By default Qwen 3 models will "think" (reason) about the problem, as they are general purpose models, but I found it was quicker (and worked better for my purpose) to make it skip this reasoning stage.</p>
-<p>By adding <code>/no_think</code> to the system prompt, it will generally skip to the execution (this may make it less successful at larger tasks but this is a small model for just a few turns of tool calls in this case).</p>
-<p>I made a <a href="https://ollama.com/michaelneale/qwen3" target="_blank" rel="noopener noreferrer">small tweak to the default Ollama chat template</a> which you can use as above that you can use as above, if you like (or the default <code>qwen3</code> model hosted by Ollama also works fine out of the box).</p>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="advanced-tips">Advanced tips<a href="https://block.github.io/goose/blog/2025/05/12/local-goose-qwen3#advanced-tips" class="hash-link" aria-label="Direct link to Advanced tips" title="Direct link to Advanced tips">​</a></h2>
-<p>You can use the goose <code>/plan</code> mode with a separate model (perhaps Qwen3 with reasoning, or another model such as deepseek) to help plan actions before shifting to Qwen3 for the execution via tool calls.</p>
-<p>It would be interesting to try the larger models if, you have access to hardware (I have only used the 8B parameter one). My current setup is a 64G M1 pro MacBook (circa 2022 hardware) which has probably less than 48G available to use for GPUs/AI, which puts a limit on what I can run, but qwen3 with "no think" mode works acceptably for my purposes.</p>
 ]]></content:encoded>
         </item>
     </channel>
